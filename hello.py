@@ -1,6 +1,6 @@
 import os
 import datetime
-from telegram.ext import Updater, CommandHandler
+from python-telegram-bot import Updater, CommandHandler
 
 # Define a function to handle the /start command
 def start(update, context):
